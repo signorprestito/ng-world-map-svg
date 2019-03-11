@@ -42,7 +42,7 @@ import { SvgMapModule, ICustomConfig} from "ng-world-map-svg";
     ...
     SvgMapModule.forRoot(<ICustomConfig>{
       country : ["IT"],
-      googleAPiKey : "YOUR-API-KEY"
+      googleAPIKey : "YOUR-API-KEY"
     })
   ],
   ...
@@ -50,6 +50,7 @@ import { SvgMapModule, ICustomConfig} from "ng-world-map-svg";
 })
 export class AppModule { }
 ```
+<a href="https://developers.google.com/maps/documentation/javascript/get-api-key">Click here</a> to get API Key.
 
 ## Basic Usage
 **my.component.html**
@@ -73,7 +74,7 @@ import { SvgMapModule, ICustomConfig} from "ng-world-map-svg";
     SvgMapModule.forRoot(<ICustomConfig>{
       country : ["IT"],
       countryColors:["lightgray"],
-      googleAPiKey : "YOUR-API-KEY"
+      googleAPIKey : "YOUR-API-KEY"
     })
   ],
   ...
@@ -132,7 +133,7 @@ import { SvgMapModule, ICustomConfig} from "ng-world-map-svg";
       //Multiple countries array
       country : ["IT","UK"],
       countryColors: ["green","red"],
-      googleAPiKey : "YOUR-API-KEY"
+      googleAPIKey : "YOUR-API-KEY"
     })
   ],
   ...
