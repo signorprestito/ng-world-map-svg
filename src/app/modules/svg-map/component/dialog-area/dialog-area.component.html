@@ -1,0 +1,7 @@
+<div class="wrap-modal">
+  <div  class="btn-close" (click)="close()">
+    CLOSE
+  </div>
+  <ng-content *ngIf="!templateInfo?.template"></ng-content>
+  <ng-container *ngIf="templateInfo?.template" [ngTemplateOutlet]="templateInfo?.template" [ngTemplateOutletContext]="{dataArea: templateInfo?.dataContext}"></ng-container>
+</div>

@@ -1,0 +1,62 @@
+{
+  "name": "ng-world-map-svg",
+  "version": "1.0.3",
+  "author": "signorprestito",
+  "description": "Create a google map with overlay the svg image of the countries indicated and the various places to display or a svg image of a country with the relative places to display.",
+  "ngPackage": {
+    "lib": {
+      "entryFile": "./public_api.ts"
+    },
+    "whitelistedNonPeerDependencies": [
+      "angular",
+      "@types/googlemaps",
+      "core-js",
+      "ng-packagr",
+      "rxjs",
+      "tsickle",
+      "tslib",
+      "zone.js"
+    ]
+  },
+  "keywords": [
+    "angular",
+    "typescript",
+    "map",
+    "world"
+  ],
+  "scripts": {
+    "packagr": "ng-packagr -p package.json"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@angular/animations": "^7.2.5",
+    "@angular/cdk": "^7.3.2",
+    "@angular/common": "~7.2.0",
+    "@angular/compiler": "~7.2.0",
+    "@angular/core": "~7.2.0",
+    "@angular/forms": "~7.2.0",
+    "@angular/material": "^7.2.0",
+    "@angular/platform-browser": "~7.2.0",
+    "@angular/platform-browser-dynamic": "~7.2.0",
+    "@angular/router": "~7.2.0",
+    "@types/googlemaps": "^3.30.16",
+    "core-js": "^2.5.4",
+    "ng-packagr": "^4.7.1",
+    "rxjs": "~6.3.3",
+    "tsickle": "^0.34.3",
+    "tslib": "^1.9.0",
+    "zone.js": "~0.8.26"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "~0.13.0",
+    "@angular/cli": "~7.3.0",
+    "@angular/compiler-cli": "~7.2.0",
+    "@angular/language-service": "~7.2.0",
+    "@types/node": "~8.9.4",
+    "codelyzer": "~4.5.0",
+    "protractor": "~5.4.0",
+    "ts-node": "~7.0.0",
+    "tslint": "~5.11.0",
+    "typescript": "~3.2.2"
+  }
+}

@@ -1,0 +1,23 @@
+#map{
+  height: 100vh;
+  width: 100%;
+}
+
+::ng-deep{
+
+
+  [title] {
+    opacity: 1!important;
+    z-index: 100!important;
+  }
+
+
+    path{
+      stroke: white;
+      opacity: .7;
+      &:hover{
+        opacity: .9;
+      }
+    }
+
+}

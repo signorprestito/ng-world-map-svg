@@ -1,0 +1,38 @@
+.wrap-modal{
+  font-family: Verdana,sans-serif;
+  position: relative;
+
+  img{
+    width: 50px;
+  }
+
+
+  .btn-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 1px solid #000000;
+    padding: 5px;
+    font-size: .7em;
+    cursor: pointer;
+
+    &:hover{
+      background-color: #000000;
+      color: #ffffff;
+    }
+  }
+
+  .text-center{
+    text-align: center;
+  }
+
+  .title-marker{
+    font-size: 2em;
+  }
+}
+
+::ng-deep{
+  .mat-dialog-container{
+    background-color: rgba(#ffffff,.9);
+  }
+}

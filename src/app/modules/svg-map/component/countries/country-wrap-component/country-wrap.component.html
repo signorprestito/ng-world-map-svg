@@ -1,0 +1,5 @@
+<div id="{{country}}_wrap">
+  <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" [attr.viewBox]="svgInfo.viewbox">
+    <path (click)="clickAreaF(p.area)" [attr.class]="country" *ngFor="let p of svgInfo.pathList" [attr.d]="p.d"></path>
+  </svg>
+</div>

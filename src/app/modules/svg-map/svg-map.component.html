@@ -1,0 +1,4 @@
+
+<app-without-google *ngIf="!settings.googleMap && scriptIsLoaded" [settings]="settings" [templatePoint]="templatePoint" [templateArea]="templateArea" [mapInfo]="mapInfo" (clickPoint)="emitClickPoint($event)" (clickArea)="clickAreaF($event)"></app-without-google>
+<app-with-google *ngIf="settings.googleMap && scriptIsLoaded" [settings]="settings" [templatePoint]="templatePoint" [templateArea]="templateArea" [mapInfo]="mapInfo" (clickPoint)="emitClickPoint($event)" (clickArea)="clickAreaF($event)"></app-with-google>
+

@@ -1,0 +1,7 @@
+<div id="map" #map></div>
+
+<div id="wrapSVG">
+  <div #mySVG>
+    <app-country-wrap *ngFor="let c of settings.config.country" [country]="c" [settings]="settings" (clickArea)="clickOnArea($event)"></app-country-wrap>
+  </div>
+</div>

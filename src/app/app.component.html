@@ -1,0 +1,13 @@
+<div class="wrap">
+<map-svg></map-svg>
+
+<ng-template #pointTemplate let-point="data">
+  Custom template for {{point?.city}}.
+  <br>
+  Address: {{point.address}}
+</ng-template>
+
+<ng-template #areaTemplate let-area="dataArea">
+  Custom template for {{area}}.
+</ng-template>
+</div>

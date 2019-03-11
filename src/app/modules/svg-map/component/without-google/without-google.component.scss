@@ -1,0 +1,15 @@
+.wrap-map{
+  position: relative;
+  width: 100%;
+}
+::ng-deep{
+  path{
+    stroke: white;
+    opacity: .7;
+    &:hover{
+      opacity: .9;
+    }
+  }
+}
+
+
