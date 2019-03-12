@@ -1,4 +1,4 @@
-import { Component, Inject } from '@angular/core';
+import { Component, Inject, OnInit } from '@angular/core';
 import { SettingsVM } from './modules/svg-map/models/SettingsVM';
 
 @Component({
@@ -6,7 +6,7 @@ import { SettingsVM } from './modules/svg-map/models/SettingsVM';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   settings: SettingsVM = new SettingsVM();
 
   constructor() { }
